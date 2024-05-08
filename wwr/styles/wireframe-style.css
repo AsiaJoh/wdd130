@@ -7,5 +7,10 @@
 }
 #hero-banner{
     width: 100%
-    background-image: url('../images/antigua.jpg'):
+    background-image: url('../images/antigua.jpg');
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+#hero-image{
+    display:none;
 }
