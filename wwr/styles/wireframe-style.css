@@ -3,10 +3,10 @@
     width: 100px;
 }
 .first-menu a:link, .first-menu a:visited{
-    color: orange
+    color: orange;
 }
 #hero-banner{
-    width: 100%
+    width: 100%;
     background-image: url('../images/rivertest.jpg');
     height: 1500px;
     background-repeat: no-repeat;
