@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+</head>
+<body>
+    <header> <!--<a and href are used to hyperlink things?-->
+        <a href="index.html"><img class="logo-img" src="images/logo.jpg" alt="White water riverton rapids logo with a gold medal"></a>
+        <nav>
+            <ul> <!--ul refers to unordered list-->
+                <li class="first-menu"><a href="bookings.html"> Book Now </a></li> <!--li refers to list item-->
+                <li><a href="deals.html"> Book Now </a></li> 
+                <li><a href="rivers.html"> Book Now </a></li> 
+                <li><a href="about.html"> Book Now </a></li> 
+                <!-- use google analytics? But there are more powerful companies like amplitude or AB Testing -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-banner"> <!--classes are like identification tags you can call upon/reference later. An alternative single-use version is the id tag-->
+            <img src="river.jpg" alt="Riverton River"> <!--src refers to source, and alt give the text that would be read if the image didn't load or for the benefit of the visually impaired-->
+            <h1>This is a heading</h1>
+            <p>This is a paragraph</p>
+        </div> <!--div refers to divider-->
+        <section>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div> <!--Now that you've created one "div" for a single section, you can paste it over and over for as many as you need, and any CSS applied to "card" would apply to them all-->
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+            <div class="card">
+                <img src="river1.webp" alt="Riverton river one">
+                <h2>River One</h2> <!--Increased h-number usually means another level deeper in the site content-->
+                <p>River one is awesome because...</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-card">
+        <div> <!--Same repeatability with this div-->
+            <h3><a href="history.html">History</a></h3>
+        </div>
+        <div>
+            <h3><a href="history.html">History</a></h3>
+        </div>
+        <div>
+            <h3><a href="history.html">History</a></h3>
+        </div>
+        <div>
+            <h3><a href="history.html">History</a></h3>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--Normally you wouldn't put the CSS FILE stuff in a html file-->
+CSS FILE <!--Example of how to use said classes. They would be called upon and havae stylistic things assigned to them via the class-->
+.logo-img{
+    width: 100px;
+}
+.first-menu{
+    color: orange
+}
