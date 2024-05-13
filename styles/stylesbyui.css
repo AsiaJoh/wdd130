@@ -12,17 +12,28 @@ footer p {
 }
 
 /*The below is a pseudo-element. The a means it's targeting all links.*/
-/*"On a hover over a link, do __{inside the curly braces}*/
+/*"On a hover over a link, do __{inside the curly braces}___*/
 a:hover {
     background-color: white;
     color: steelblue;
 }
 
 img {
-    width: 50%;
-    padding: 2.5%
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 
 body {
     margin: 0
+}
+
+h1 {
+    text-align: center;
 }
