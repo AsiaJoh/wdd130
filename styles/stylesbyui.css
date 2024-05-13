@@ -3,3 +3,17 @@ nav, footer {
     color: white;
     padding: 10px;
 }
+
+/*Spaces mean "inside of, and you'd read this backwards.*/
+/*The below reads as 'look for paragraphs inside of footers*/
+footer p { 
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+/*The below is a pseudo-element. The a means it's targeting all links.*/
+/*"On a hover over a link, do __{inside the curly braces}*/
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
