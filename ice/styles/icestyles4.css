@@ -2,12 +2,18 @@ body {
     background-color: #5ca1d7;
 }
 
-.top {
-    color: white
+.top h1{
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
 }
 
 .top h1:hover{ /*Only target h1 tags inside of 'top'*/
     color: black
+}
+
+.top p{
+    color: white;
 }
 
 .list {
