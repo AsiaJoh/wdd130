@@ -22,14 +22,14 @@ body {
 }
 
 #heroimage{
-    width: 40%;
+    width: 10%;
     display: block;
     margin: 0 auto
 }
 
 blockquote{
     color: #fff;
-    font-size: 1.7em;
+    font-size: 2.2em;
     max-width: 250px;
     margin: 0 auto;
     padding: 5% 5% 5% 15%;
