@@ -1,0 +1,39 @@
+body {
+    /* background-color: #5cald7; */
+    background-color: blue;
+}
+
+.top {
+    color: white
+}
+
+.top h1:hover{ /*Only target h1 tags inside of 'top'*/
+    color: black
+}
+
+.list {
+    width: 60%;
+    margin: 0 auto
+}
+
+#heroimage{
+    width: 40%;
+    display: block;
+    margin: 0 auto
+}
+
+blockquote{
+    color: #fff;
+    font-size: 1.7em;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 5% 5% 5% 15%;
+}
+
+figcaption{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
