@@ -49,11 +49,11 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color:  #05C7F2; 
+    background-color:  white; 
 }
 
 .msg {
-    background-color:  #05C7F2; 
+    background-color:  white; 
 }
 
 footer {
@@ -63,15 +63,15 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #F5F267
+    color: #032CA6
 }
 
 footer a:hover {
-    color: #F5F267
+    color: #032CA6
 }
 
 .home-title {
-    color: #D8E6F2
+    color: #032CA6
 }
 
 h4 {
