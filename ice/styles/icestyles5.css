@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #737373;
 }
 
 #title-image {
@@ -7,5 +7,6 @@ body {
 }
 
 .circle {
-    width: 150px;
+    width: 300px;
+    border-radius: 50%;
 }
