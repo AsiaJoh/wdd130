@@ -2,7 +2,7 @@ body {
     background-color: #5ca1d7;
 }
 
-.top h1{
+.top h1{ /*the . refers to class*/
     color: white;
     text-align: center;
     font-size: 2.2em;
@@ -22,7 +22,7 @@ body {
     margin: 0 auto 
 }
 
-#heroimage{
+#heroimage{ /*the # refers to an ID*/
     width: 25%;
     display: block;
     margin: 0 auto
