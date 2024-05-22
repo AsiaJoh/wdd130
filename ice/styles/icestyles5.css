@@ -1,13 +1,20 @@
 body {
     background-color: #737373;
+    margin: 0 auto;
 }
 
 #title-image {
     width: 100%;
 }
 
+footer {
+    text-align: center;
+}
+
 .circle {
-    width: 300px;
+    width: 10%;
     border-radius: 50%;
-    border: 5px solid #444444;
+    border: 10px solid #444444;
+    font-size: 0;
+    margin: 1% 2% 2% 1%;
 }
