@@ -1,4 +1,8 @@
-
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 #content {
     max-width: 1600px;
@@ -30,6 +34,7 @@ main section {
 
 body {
     background-color:  white; 
+    font-family: "Ubuntu Sans", Helvetica, sans-serif;
 }
 
 header {
@@ -71,6 +76,7 @@ footer a:hover {
 }
 
 .home-title {
+    font-family: "EB Garamond", Helvetica, sans-serif;
     color: #032CA6
 }
 
@@ -79,6 +85,7 @@ h4 {
 }
 
 .msg h2 {
+    font-family: "EB Garamond", Helvetica, sans-serif;
     color: #032CA6
 }
 
