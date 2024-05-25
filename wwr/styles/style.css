@@ -35,6 +35,7 @@ main section {
 body {
     background-color:  white; 
     font-family: "Ubuntu Sans", Helvetica, sans-serif;
+    font-size: 22px;
 }
 
 header {
@@ -49,6 +50,7 @@ nav a:hover {
 .book, .join {
     background-color:  white;
     text-decoration: none;
+    font-size: 18px;
     color: #032CA6
     
 }
@@ -59,6 +61,7 @@ nav a:hover {
 
 .msg {
     background-color:  white; 
+    line-height: 1.5em;
 }
 
 footer {
@@ -77,6 +80,7 @@ footer a:hover {
 
 .home-title {
     font-family: "EB Garamond", Helvetica, sans-serif;
+    font-size: 2em;
     color: #032CA6
 }
 
@@ -90,6 +94,7 @@ h4 {
 }
 
 .msg p {
+    font-size: .8em;
     color: #032CA6
 }
 
