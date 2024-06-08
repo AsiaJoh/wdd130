@@ -122,9 +122,12 @@ nav a:hover {
 }
 
 footer {
+    background-color: #D8E6F2;
     padding: 25px 50px;
-    margin-top: 200px;
-    background-color:  #D8E6F2; 
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #032CA6
 }
 
