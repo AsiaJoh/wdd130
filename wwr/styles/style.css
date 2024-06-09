@@ -10,14 +10,14 @@ Fonts are separated by a & */
 }
 
 #content header {
-    background-color: white;
+    background-color: #032CA6;
 }
 
 nav a {
     padding: 35px;
     text-align: center;
     text-decoration: none;
-    color: #032CA6
+    color: #F5F267
 }
 
 #hero {
@@ -68,6 +68,7 @@ main section {
     background-color: white; 
     grid-column: 1/11;
     grid-row: 4/9;
+    
 }
 
 .mountains {
@@ -95,7 +96,7 @@ nav {
 }
 
 nav a:hover {
-    background-color:  white; 
+    background-color:  #F5F267; 
     color: #032CA6
 }
 
@@ -218,7 +219,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid #032CA6;
+    border: 10px solid #D8E6F2;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
