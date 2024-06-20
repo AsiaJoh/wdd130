@@ -1,21 +1,21 @@
 #city-image {
-    width: 200px;
+    width: 300px;
 }
 
 #little-header {
     color: #677ea3;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 
 #big-header {
-    font-size: 150px;
+    font-size: 50px;
     text-align: center;
 }
 
 #content {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     color: #978d97;
     background-color: white;
 }
@@ -35,11 +35,13 @@
 }
 
 #footer2 {
-    
+    text-align: center;
+    color: white;
 }
 
 #footer3 {
-    
+    text-align: center;
+    color: white;
 }
 
 #background {
