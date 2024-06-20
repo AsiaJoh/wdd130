@@ -1,7 +1,5 @@
 #container {
     background-color: white;
-    border-radius: 10px;
-    overflow: hidden
 }
 
 #city-image {
@@ -27,6 +25,8 @@
     font-size: 17px;
     color: #978d97;
     background-color: white;
+    /* border-radius: 10px;
+    overflow: hidden */
 }
 
 .grid-container{
