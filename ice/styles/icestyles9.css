@@ -6,6 +6,10 @@ html {
     background-color: white;
     width: 250px;
     margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #city-image {
@@ -38,35 +42,51 @@ html {
 
 .grid-container{
     display: grid;
+    align-items: center;
     grid-template-columns: 
         auto auto auto;
     grid-template-rows: 
         auto; 
     background-color: #3f5b8b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #footer1 {
     text-align: center;
     color: white;
     border-style: solid;
-    border-color: white;
+    border-color: #3f5b8b #3f5b8b #3f5b8b #3f5b8b;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+    font-size: 10px;
 }
 
 #footer2 {
     text-align: center;
     color: white;
     border-style: solid;
-    border-color: white;
+    border-color: #3f5b8b white #3f5b8b white;
+    padding: 15px;
+    font-size: 10px;
 }
 
 #footer3 {
     text-align: center;
     color: white;
     border-style: solid;
-    border-color: white;
+    border-color: #3f5b8b #3f5b8b #3f5b8b #3f5b8b;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    font-size: 10px;
 }
 
 #background {
     color: #1e1e1e;
     background-color: #1e1e1e;
+}
+
+em {
+    font-size: 20px;
+    font-style: normal;
 }
