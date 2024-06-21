@@ -1,12 +1,21 @@
+html {
+    background-color: black;
+}
+
 #container {
     background-color: white;
+    width: 250px;
+    margin: 0 auto;
 }
 
 #city-image {
-    width: 300px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
 }
 
 #little-header {
