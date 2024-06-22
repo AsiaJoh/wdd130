@@ -240,8 +240,11 @@ main section img {
 
 /* Rivers-subpage CSS adjustments beneath here (except for the media query) */
 
-.home-title p {
-    color: #F5F267;
+.rivers-home-title {
+    margin-top: 10px;
+    font-family: "EB Garamond", Helvetica, sans-serif;
+    font-size: 2em;
+    color: #032CA6
 }
 
 @media screen and (max-width: 900px) {
