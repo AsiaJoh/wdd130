@@ -247,6 +247,19 @@ main section img {
     color: white
 }
 
+#rivers-content {
+    position: relative;
+    right: 10px;
+}
+
+.rivers-heading {
+    color: #032CA6;
+}
+
+.river-words {
+    color: #032CA6;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
